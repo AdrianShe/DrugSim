@@ -42,14 +42,14 @@ shinyUI(
                             checkboxInput("self", label = "Compare all drugs in List A against themselves", value = FALSE),
                             selectInput("choice", label = h3("Fingerprint"), choice = list("Extended", "Standard" , "Graph" , "PubChem"), selected = "Extended"),
                             actionButton("compute", "Submit!")
-                            ),
+                          ),
                           mainPanel(
                             p("Returns the drug similarity matrix of all drugs identified in list A against all drugs identified in list B."),
                             p("Similarity of drugs is the Tanimoto similarity of their fingerprints, according to the users' choice."),
                             h3("Results"),
                             tableOutput("Results")
-                            )
                           )
-                        ))
+                        )
+                      ))
              ))
 
