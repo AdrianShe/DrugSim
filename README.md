@@ -17,7 +17,7 @@ repurposing, and elucidating families of similar drugs.
 Since similarity is often an arbitrary metric, the metric we have chosen to use is as follows:
 
 Given drugs A and B for which a SMILES string representation exists for both drugs, the similarity between them is the Tanimoto similarity of 
-their 1024-bit extended valence fingerprints (as computed using the R Chemical Development Kit). 
+their 1024-bit extended valence fingerprints (as computed using the R Chemistry Development Kit). 
 
 Work is ongoing to facilitate use of different similarity metrics in the application and to support additional methods of looking
 at the similiarity of drugs other than the similarity in their structures.
